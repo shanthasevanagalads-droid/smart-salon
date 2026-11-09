@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001428" />
+      <stop offset="50%" stop-color="#0a2a4a" />
+      <stop offset="100%" stop-color="#001428" />
+    </linearGradient>
+    <linearGradient id="goldGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="cyanGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full Bleed Square (Safe for squircle or circle cropping) -->
+  <rect width="512" height="512" fill="url(#bgGradMask)" />
+
+  <!-- Safe Zone Group (Scaled to 78% centered) -->
+  <g transform="translate(56, 56) scale(0.78)">
+    <circle cx="256" cy="210" r="130" fill="#001e3d" stroke="url(#cyanGradMask)" stroke-width="4" />
+
+    <!-- Barber Scissors Icon -->
+    <g transform="translate(146, 100) scale(0.45)" fill="none" stroke="#f8fafc" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M120 400 A 40 40 0 1 1 120 320 L 320 120" stroke="url(#goldGradMask)" stroke-width="24" />
+      <path d="M360 400 A 40 40 0 1 0 360 320 L 160 120" stroke="#f8fafc" stroke-width="24" />
+      <circle cx="240" cy="240" r="18" fill="#38bdf8" stroke="#ffffff" stroke-width="6" />
+    </g>
+
+    <path d="M 200 290 Q 256 315 312 290" stroke="url(#cyanGradMask)" stroke-width="6" stroke-linecap="round" fill="none" />
+
+    <text x="256" y="380" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="36" fill="#f8fafc" letter-spacing="3">
+      SMART SALON
+    </text>
+    <text x="256" y="415" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="20" fill="#38bdf8" letter-spacing="6">
+      LK • ශ්‍රී ලංකා
+    </text>
+  </g>
+</svg>
+
